@@ -1,42 +1,52 @@
-# 🧩 Automatización: Generador de guiones para YouTube
+# 🤖 Asistente de WhatsApp con IA (n8n + Evolution API + OpenAI)
 
-Este proyecto fue desarrollado en **n8n** como una herramienta que permite generar guiones dinámicos para videos de YouTube a partir de una idea o título.
-
----
-
-## 🚀 ¿Qué hace esta automatización?
-
-✅ Recibe una idea desde formulario o WhatsApp  
-✅ Envia la idea a una IA (modelo de lenguaje)  
-✅ Devuelve un guion estructurado (inicio, desarrollo, cierre)  
-✅ Guarda el resultado y lo entrega al usuario
+Este proyecto permite crear un **asistente automatizado de WhatsApp** que responde preguntas usando inteligencia artificial. Está desarrollado en **n8n** e integrado con **Evolution API** para recibir mensajes y **OpenAI** para generar respuestas humanizadas.
 
 ---
 
-## 💡 Usos recomendados
+## 🧠 ¿Qué hace esta automatización?
 
-- Creadores de contenido que desean acelerar su proceso de guion
-- Agencias que trabajan con producción de video
-- Emprendedores que hacen reels, shorts o TikToks
+✅ Recibe mensajes de WhatsApp (texto, imagen o audio)  
+✅ Decodifica imágenes y transcribe audios si es necesario  
+✅ Enruta el mensaje según el tipo de entrada  
+✅ Consulta una IA (OpenAI + SerpAPI) para generar la respuesta  
+✅ Devuelve la respuesta por WhatsApp al usuario
+
+
+
+## 🎥 Demo en video
+
+[![Demo en YouTube](https://img.youtube.com/vi/Lj29HlwYQUk/hqdefault.jpg)](https://www.youtube.com/watch?v=Lj29HlwYQUk)
 
 ---
 
-## 📸 Vista previa (flujo simplificado)
+## 🌐 Prueba el demo en vivo
 
-_(Próximamente captura o video preview del flujo en acción)_
+Puedes interactuar directamente con el asistente desde mi página:  
+👉 **[https://carlosfera.es](https://carlosfera.es)**
+
+---
+
+## 💡 Casos de uso
+
+- Atención al cliente automatizada  
+- Bots de WhatsApp para responder preguntas frecuentes  
+- Asistentes de ventas para e-commerce  
+- Integración de IA en canales de contacto reales
 
 ---
 
 ## 🔐 Acceso al flujo
 
 El flujo no se publica para evitar usos indebidos.  
-📬 **Puedes solicitar una demo privada si te interesa implementarlo en tu negocio.**
+📬 Puedes solicitar una demo profesional o una implementación a medida.
 
 ---
 
-## 🧠 Herramientas utilizadas
+## 🧰 Herramientas utilizadas
 
-- n8n (self-hosted)
-- OpenAI / Claude / otra IA para generación de texto
-- Webhook + respuesta automática por WhatsApp o email
+- **n8n** (automatización visual)  
+- **Evolution API** (integración de WhatsApp)  
+- **OpenAI GPT-4** (modelo de lenguaje)  
+- **SerpAPI** (búsquedas complementarias)
 
